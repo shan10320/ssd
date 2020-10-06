@@ -1,0 +1,153 @@
+body {
+  display: flex;
+  -ms-flex-align: center;
+  align-items: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: white;
+}
+
+p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+.mainDiv {
+  width: 400px;
+  margin: auto;
+  font-size: medium;
+  padding: 20px;
+  background-color: white;
+  z-index: 3;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.imageDiv {
+  display: flex;
+  justify-content: center;
+}
+
+.imageStyle {
+  height: 50px;
+  width: 60px;
+}
+
+.content {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  padding-top: 15px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.content-txt {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  padding-bottom: 5px;
+  display: block;
+  text-align: center;
+}
+
+.footer {
+  width: 100%;
+  max-width: 600px;
+  padding-right: 25px;
+  padding-left: 25px;
+  padding-top: 15px;
+  padding-bottom: 30px;
+  display: block;
+  text-align: center;
+}
+
+.footer-upload {
+  width: 100%;
+  max-width: 600px;
+  padding-right: 25px;
+  padding-left: 25px;
+  padding-bottom: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.text-main {
+  font-weight: 500;
+  color: black;
+  font-size: x-large;
+  text-align: center;
+}
+
+.spacing {
+  padding-bottom: 20px;
+}
+
+.text-light-grey-upload {
+  font-weight: 300;
+  color: gray;
+  font-size: large;
+}
+
+.input-div {
+  display: flex;
+  width: 80%;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.input {
+  width: 100%;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 12px 0 rgba(0, 0, 0, 0.19);
+}
+
+.text-light {
+  font-weight: 600;
+  color: black;
+  font-size: small;
+}
+
+.btn-div {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.btn-div-upload {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-top: 20px;
+}
+
+.btn-block {
+  display: block;
+  width: 120px;
+  border-radius: 2px;
+  font-size: small;
+  padding: 8px;
+  background-color: rgb(57, 151, 210);
+  border: transparent;
+  outline: none;
+  border: 0;
+}
+
+.btn-block:focus {
+  background-color: rgb(57, 151, 210);
+  border: transparent;
+  outline: none;
+  border: 0;
+}
